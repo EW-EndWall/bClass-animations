@@ -1,0 +1,753 @@
+/* * animations */
+/* * animations close */
+.no-animations * {
+  animation: none !important;
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -ms-animation: none !important;
+  -o-animation: none !important;
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* * animation delays */
+.animation-delay-1 {
+  animation-delay: 1s;
+}
+.animation-delay-2 {
+  animation-delay: 2s;
+}
+.animation-delay-3 {
+  animation-delay: 3s;
+}
+.animation-delay-4 {
+  animation-delay: 4s;
+}
+.animation-delay-5 {
+  animation-delay: 5s;
+}
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* * hover click animations */
+@keyframes upAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    -o-transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+@keyframes leftAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(-1rem);
+    -webkit-transform: translateX(-1rem);
+    -moz-transform: translateX(-1rem);
+    -ms-transform: translateX(-1rem);
+    -o-transform: translateX(-1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+@keyframes downAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem);
+    -webkit-transform: translateY(-1rem);
+    -moz-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    -o-transform: translateY(-1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+@keyframes rightAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(1rem);
+    -webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    -o-transform: translateX(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+/* * up */
+.up-animation-infinite,
+.up-animation-infinite-hover:hover {
+  animation: upAnimation 1s linear infinite;
+  -webkit-animation: upAnimation 1s linear infinite;
+}
+.up-animation-single,
+.up-animation-single-hover:hover {
+  animation: upAnimation 1s linear 1;
+  -webkit-animation: upAnimation 1s linear 1;
+}
+/* * left */
+.left-animation-infinite,
+.left-animation-infinite-hover:hover {
+  animation: leftAnimation 1s linear infinite;
+  -webkit-animation: leftAnimation 1s linear infinite;
+}
+.left-animation-single,
+.left-animation-single-hover:hover {
+  animation: leftAnimation 1s linear 1;
+  -webkit-animation: leftAnimation 1s linear 1;
+}
+/* * down */
+.down-animation-infinite,
+.down-animation-infinite-hover:hover {
+  animation: downAnimation 1s linear infinite;
+  -webkit-animation: downAnimation 1s linear infinite;
+}
+.down-animation-single,
+.down-animation-single-hover:hover {
+  animation: downAnimation 1s linear 1;
+  -webkit-animation: downAnimation 1s linear 1;
+}
+/* * right */
+.right-animation-infinite,
+.right-animation-infinite-hover:hover {
+  animation: rightAnimation 1s linear infinite;
+  -webkit-animation: rightAnimation 1s linear infinite;
+}
+.right-animation-single,
+.right-animation-single-hover:hover {
+  animation: rightAnimation 1s linear 1;
+  -webkit-animation: rightAnimation 1s linear 1;
+}
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* * slide animations */
+@keyframes slideRightAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes slideLeftAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes slideUpAnimation {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+@keyframes slideDownAnimation {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+/* * 10s */
+.slide-right-animation-10 {
+  animation: slideRightAnimation 10s linear infinite;
+  -webkit-animation: slideRightAnimation 10s linear infinite;
+}
+.slide-left-animation-10 {
+  animation: slideLeftAnimation 10s linear infinite;
+  -webkit-animation: slideLeftAnimation 10s linear infinite;
+}
+.slide-up-animation-10 {
+  animation: slideUpAnimation 10s linear infinite;
+  -webkit-animation: slideUpAnimation 10s linear infinite;
+}
+.slide-down-animation-10 {
+  animation: slideDownAnimation 10s linear infinite;
+  -webkit-animation: slideDownAnimation 10s linear infinite;
+}
+/* * 20s */
+.slide-right-animation-20 {
+  animation: slideRightAnimation 20s linear infinite;
+  -webkit-animation: slideRightAnimation 20s linear infinite;
+}
+.slide-left-animation-20 {
+  animation: slideLeftAnimation 20s linear infinite;
+  -webkit-animation: slideLeftAnimation 20s linear infinite;
+}
+.slide-up-animation-20 {
+  animation: slideUpAnimation 20s linear infinite;
+  -webkit-animation: slideUpAnimation 20s linear infinite;
+}
+.slide-down-animation-20 {
+  animation: slideDownAnimation 20s linear infinite;
+  -webkit-animation: slideDownAnimation 20s linear infinite;
+}
+/* * 30s */
+.slide-right-animation-30 {
+  animation: slideRightAnimation 30s linear infinite;
+  -webkit-animation: slideRightAnimation 30s linear infinite;
+}
+.slide-left-animation-30 {
+  animation: slideLeftAnimation 30s linear infinite;
+  -webkit-animation: slideLeftAnimation 30s linear infinite;
+}
+.slide-up-animation-30 {
+  animation: slideUpAnimation 30s linear infinite;
+  -webkit-animation: slideUpAnimation 30s linear infinite;
+}
+.slide-down-animation-30 {
+  animation: slideDownAnimation 30s linear infinite;
+  -webkit-animation: slideDownAnimation 30s linear infinite;
+}
+/* * 60s */
+.slide-right-animation-60 {
+  animation: slideRightAnimation 60s linear infinite;
+  -webkit-animation: slideRightAnimation 60s linear infinite;
+}
+.slide-left-animation-60 {
+  animation: slideLeftAnimation 60s linear infinite;
+  -webkit-animation: slideLeftAnimation 60s linear infinite;
+}
+.slide-up-animation-60 {
+  animation: slideUpAnimation 60s linear infinite;
+  -webkit-animation: slideUpAnimation 60s linear infinite;
+}
+.slide-down-animation-60 {
+  animation: slideDownAnimation 60s linear infinite;
+  -webkit-animation: slideDownAnimation 60s linear infinite;
+}
+/* * slide animations paused */
+/* * 10s */
+.slide-right-animation-10:hover,
+  .slide-left-animation-10:hover,
+  .slide-up-animation-10:hover,
+  .slide-down-animation-10:hover,
+  /* * 20s */
+  .slide-right-animation-20:hover,
+  .slide-left-animation-20:hover,
+  .slide-up-animation-20:hover,
+  .slide-down-animation-20:hover,
+  /* * 30s */
+  .slide-right-animation-30:hover,
+  .slide-left-animation-30:hover,
+  .slide-up-animation-30:hover,
+  .slide-down-animation-30:hover,
+  /* * 60s */
+  .slide-right-animation-60:hover,
+  .slide-left-animation-60:hover,
+  .slide-up-animation-60:hover,
+  .slide-down-animation-60:hover {
+  animation-play-state: paused;
+}
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* * opacity animations */
+@keyframes opacitySharpAnimation-0 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacitySharpAnimation-0-5 {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacitySoftAnimation-0 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes opacitySofAnimation-0-5 {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+/* * infinite */
+/* * 1s */
+.opacity-sharp-animation-full-infinite-1,
+.opacity-sharp-animation-full-infinite-1-hover:hover {
+  animation: opacitySharpAnimation-0 1s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0 1s linear infinite;
+}
+.opacity-sharp-animation-half-infinite-1,
+.opacity-sharp-animation-half-infinite-1-hover:hover {
+  animation: opacitySharpAnimation-0-5 1s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0-5 1s linear infinite;
+}
+.opacity-soft-animation-full-infinite-1,
+.opacity-soft-animation-full-infinite-1-hover:hover {
+  animation: opacitySoftAnimation-0 1s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0 1s linear infinite;
+}
+.opacity-soft-animation-half-infinite-1,
+.opacity-soft-animation-half-infinite-1-hover:hover {
+  animation: opacitySoftAnimation-0-5 1s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0-5 1s linear infinite;
+}
+/* * 2s */
+.opacity-sharp-animation-full-infinite-2,
+.opacity-sharp-animation-full-infinite-2-hover:hover {
+  animation: opacitySharpAnimation-0 2s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0 2s linear infinite;
+}
+.opacity-sharp-animation-half-infinite-2,
+.opacity-sharp-animation-half-infinite-2-hover:hover {
+  animation: opacitySharpAnimation-0-5 2s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0-5 2s linear infinite;
+}
+.opacity-soft-animation-full-infinite-2,
+.opacity-soft-animation-full-infinite-2-hover:hover {
+  animation: opacitySoftAnimation-0 2s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0 2s linear infinite;
+}
+.opacity-soft-animation-half-infinite-2,
+.opacity-soft-animation-half-infinite-2-hover:hover {
+  animation: opacitySoftAnimation-0-5 2s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0-5 2s linear infinite;
+}
+/* * 3s */
+.opacity-sharp-animation-full-infinite-3,
+.opacity-sharp-animation-full-infinite-3-hover:hover {
+  animation: opacitySharpAnimation-0 3s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0 3s linear infinite;
+}
+.opacity-sharp-animation-half-infinite-3,
+.opacity-sharp-animation-half-infinite-3-hover:hover {
+  animation: opacitySharpAnimation-0-5 3s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0-5 3s linear infinite;
+}
+.opacity-soft-animation-full-infinite-3,
+.opacity-soft-animation-full-infinite-3-hover:hover {
+  animation: opacitySoftAnimation-0 3s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0 3s linear infinite;
+}
+.opacity-soft-animation-half-infinite-3,
+.opacity-soft-animation-half-infinite-3-hover:hover {
+  animation: opacitySoftAnimation-0-5 3s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0-5 3s linear infinite;
+}
+/* * 4s */
+.opacity-sharp-animation-full-infinite-4,
+.opacity-sharp-animation-full-infinite-4-hover:hover {
+  animation: opacitySharpAnimation-0 4s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0 4s linear infinite;
+}
+.opacity-sharp-animation-half-infinite-4,
+.opacity-sharp-animation-half-infinite-4-hover:hover {
+  animation: opacitySharpAnimation-0-5 4s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0-5 4s linear infinite;
+}
+.opacity-soft-animation-full-infinite-4,
+.opacity-soft-animation-full-infinite-4-hover:hover {
+  animation: opacitySoftAnimation-0 4s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0 4s linear infinite;
+}
+.opacity-soft-animation-half-infinite-4,
+.opacity-soft-animation-half-infinite-4-hover:hover {
+  animation: opacitySoftAnimation-0-5 4s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0-5 4s linear infinite;
+}
+/* * 5s */
+.opacity-sharp-animation-full-infinite-5,
+.opacity-sharp-animation-full-infinite-5-hover:hover {
+  animation: opacitySharpAnimation-0 5s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0 5s linear infinite;
+}
+.opacity-sharp-animation-half-infinite-5,
+.opacity-sharp-animation-half-infinite-5-hover:hover {
+  animation: opacitySharpAnimation-0-5 5s linear infinite;
+  -webkit-animation: opacitySharpAnimation-0-5 5s linear infinite;
+}
+.opacity-soft-animation-full-infinite-5,
+.opacity-soft-animation-full-infinite-5-hover:hover {
+  animation: opacitySoftAnimation-0 5s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0 5s linear infinite;
+}
+.opacity-soft-animation-half-infinite-5,
+.opacity-soft-animation-half-infinite-5-hover:hover {
+  animation: opacitySoftAnimation-0-5 5s linear infinite;
+  -webkit-animation: opacitySoftAnimation-0-5 5s linear infinite;
+}
+/* * single */
+/* * 1s */
+.opacity-sharp-animation-full-single-1,
+.opacity-sharp-animation-full-single-1-hover:hover {
+  animation: opacitySharpAnimation-0 1s linear 1;
+  -webkit-animation: opacitySharpAnimation-0 1s linear 1;
+}
+.opacity-sharp-animation-half-single-1,
+.opacity-sharp-animation-half-single-1-hover:hover {
+  animation: opacitySharpAnimation-0-5 1s linear 1;
+  -webkit-animation: opacitySharpAnimation-0-5 1s linear 1;
+}
+.opacity-soft-animation-full-single-1,
+.opacity-soft-animation-full-single-1-hover:hover {
+  animation: opacitySoftAnimation-0 1s linear 1;
+  -webkit-animation: opacitySoftAnimation-0 1s linear 1;
+}
+.opacity-soft-animation-half-single-1,
+.opacity-soft-animation-half-single-1-hover:hover {
+  animation: opacitySoftAnimation-0-5 1s linear 1;
+  -webkit-animation: opacitySoftAnimation-0-5 1s linear 1;
+}
+/* * 2s */
+.opacity-sharp-animation-full-single-2,
+.opacity-sharp-animation-full-single-2-hover:hover {
+  animation: opacitySharpAnimation-0 2s linear 1;
+  -webkit-animation: opacitySharpAnimation-0 2s linear 1;
+}
+.opacity-sharp-animation-half-single-2,
+.opacity-sharp-animation-half-single-2-hover:hover {
+  animation: opacitySharpAnimation-0-5 2s linear 1;
+  -webkit-animation: opacitySharpAnimation-0-5 2s linear 1;
+}
+.opacity-soft-animation-full-single-2,
+.opacity-soft-animation-full-single-2-hover:hover {
+  animation: opacitySoftAnimation-0 2s linear 1;
+  -webkit-animation: opacitySoftAnimation-0 2s linear 1;
+}
+.opacity-soft-animation-half-single-2,
+.opacity-soft-animation-half-single-2-hover:hover {
+  animation: opacitySoftAnimation-0-5 2s linear 1;
+  -webkit-animation: opacitySoftAnimation-0-5 2s linear 1;
+}
+/* * 3s */
+.opacity-sharp-animation-full-single-3,
+.opacity-sharp-animation-full-single-3-hover:hover {
+  animation: opacitySharpAnimation-0 3s linear 1;
+  -webkit-animation: opacitySharpAnimation-0 3s linear 1;
+}
+.opacity-sharp-animation-half-single-3,
+.opacity-sharp-animation-half-single-3-hover:hover {
+  animation: opacitySharpAnimation-0-5 3s linear 1;
+  -webkit-animation: opacitySharpAnimation-0-5 3s linear 1;
+}
+.opacity-soft-animation-full-single-3,
+.opacity-soft-animation-full-single-3-hover:hover {
+  animation: opacitySoftAnimation-0 3s linear 1;
+  -webkit-animation: opacitySoftAnimation-0 3s linear 1;
+}
+.opacity-soft-animation-half-single-3,
+.opacity-soft-animation-half-single-3-hover:hover {
+  animation: opacitySoftAnimation-0-5 3s linear 1;
+  -webkit-animation: opacitySoftAnimation-0-5 3s linear 1;
+}
+/* * 4s */
+.opacity-sharp-animation-full-single-4,
+.opacity-sharp-animation-full-single-4-hover:hover {
+  animation: opacitySharpAnimation-0 4s linear 1;
+  -webkit-animation: opacitySharpAnimation-0 4s linear 1;
+}
+.opacity-sharp-animation-half-single-4,
+.opacity-sharp-animation-half-single-4-hover:hover {
+  animation: opacitySharpAnimation-0-5 4s linear 1;
+  -webkit-animation: opacitySharpAnimation-0-5 4s linear 1;
+}
+.opacity-soft-animation-full-single-4,
+.opacity-soft-animation-full-single-4-hover:hover {
+  animation: opacitySoftAnimation-0 4s linear 1;
+  -webkit-animation: opacitySoftAnimation-0 4s linear 1;
+}
+.opacity-soft-animation-half-single-4,
+.opacity-soft-animation-half-single-4-hover:hover {
+  animation: opacitySoftAnimation-0-5 4s linear 1;
+  -webkit-animation: opacitySoftAnimation-0-5 4s linear 1;
+}
+/* * 5s */
+.opacity-sharp-animation-full-single-5,
+.opacity-sharp-animation-full-single-5-hover:hover {
+  animation: opacitySharpAnimation-0 5s linear 1;
+  -webkit-animation: opacitySharpAnimation-0 5s linear 1;
+}
+.opacity-sharp-animation-half-single-5,
+.opacity-sharp-animation-half-single-5-hover:hover {
+  animation: opacitySharpAnimation-0-5 5s linear 1;
+  -webkit-animation: opacitySharpAnimation-0-5 5s linear 1;
+}
+.opacity-soft-animation-full-single-5,
+.opacity-soft-animation-full-single-5-hover:hover {
+  animation: opacitySoftAnimation-0 5s linear 1;
+  -webkit-animation: opacitySoftAnimation-0 5s linear 1;
+}
+.opacity-soft-animation-half-single-5,
+.opacity-soft-animation-half-single-5-hover:hover {
+  animation: opacitySoftAnimation-0-5 5s linear 1;
+  -webkit-animation: opacitySoftAnimation-0-5 5s linear 1;
+}
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+/* ! ---------------------------------------------------------------------------------  */
+
+/*  */
+.rotate-l-1 {
+  animation: rotate-left 1s linear infinite;
+  -webkit-animation: rotate-left 1s linear infinite;
+}
+.rotate-l-2 {
+  animation: rotate-left 2s linear infinite;
+  -webkit-animation: rotate-left 2s linear infinite;
+}
+.rotate-l-3 {
+  animation: rotate-left 3s linear infinite;
+  -webkit-animation: rotate-left 3s linear infinite;
+}
+.rotate-l-4 {
+  animation: rotate-left 4s linear infinite;
+  -webkit-animation: rotate-left 4s linear infinite;
+}
+.rotate-l-5 {
+  animation: rotate-left 5s linear infinite;
+  -webkit-animation: rotate-left 5s linear infinite;
+}
+@keyframes rotate-left {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+  }
+}
+
+.rotate-r-1 {
+  animation: rotate-right 1s linear infinite;
+  -webkit-animation: rotate-right 1s linear infinite;
+}
+.rotate-r-2 {
+  animation: rotate-right 2s linear infinite;
+  -webkit-animation: rotate-right 2s linear infinite;
+}
+.rotate-r-3 {
+  animation: rotate-right 3s linear infinite;
+  -webkit-animation: rotate-right 3s linear infinite;
+}
+.rotate-r-4 {
+  animation: rotate-right 4s linear infinite;
+  -webkit-animation: rotate-right 4s linear infinite;
+}
+.rotate-r-5 {
+  animation: rotate-right 5s linear infinite;
+  -webkit-animation: rotate-right 5s linear infinite;
+}
+@keyframes rotate-right {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+/*  */
+.translateX-50 {
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.translate-x-1 {
+  animation: translate-x 1s linear infinite;
+  -webkit-animation: translate-x 1s linear infinite;
+}
+.translate-x-2 {
+  animation: translate-x 2s linear infinite;
+  -webkit-animation: translate-x 2s linear infinite;
+}
+.translate-x-3 {
+  animation: translate-x 3s linear infinite;
+  -webkit-animation: translate-x 3s linear infinite;
+}
+.translate-x-4 {
+  animation: translate-x 4s linear infinite;
+  -webkit-animation: translate-x 4s linear infinite;
+}
+.translate-x-5 {
+  animation: translate-x 5s linear infinite;
+  -webkit-animation: translate-x 5s linear infinite;
+}
+.translate-x-6 {
+  animation: translate-x 6s linear infinite;
+  -webkit-animation: translate-x 6s linear infinite;
+}
+.translate-x-7 {
+  animation: translate-x 7s linear infinite;
+  -webkit-animation: translate-x 7s linear infinite;
+}
+.translate-x-8 {
+  animation: translate-x 8s linear infinite;
+  -webkit-animation: translate-x 8s linear infinite;
+}
+.translate-x-9 {
+  animation: translate-x 9s linear infinite;
+  -webkit-animation: translate-x 9s linear infinite;
+}
+.translate-x-10 {
+  animation: translate-x 10s linear infinite;
+  -webkit-animation: translate-x 10s linear infinite;
+}
+
+@keyframes translate-x {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+}
+/* -------- */
+.translateY-50 {
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.translate-y-1 {
+  animation: translate-y 1s linear infinite;
+  -webkit-animation: translate-y 1s linear infinite;
+}
+.translate-y-2 {
+  animation: translate-y 2s linear infinite;
+  -webkit-animation: translate-y 2s linear infinite;
+}
+.translate-y-3 {
+  animation: translate-y 3s linear infinite;
+  -webkit-animation: translate-y 3s linear infinite;
+}
+.translate-y-4 {
+  animation: translate-y 4s linear infinite;
+  -webkit-animation: translate-y 4s linear infinite;
+}
+.translate-y-5 {
+  animation: translate-y 5s linear infinite;
+  -webkit-animation: translate-y 5s linear infinite;
+}
+.translate-y-6 {
+  animation: translate-y 6s linear infinite;
+  -webkit-animation: translate-y 6s linear infinite;
+}
+.translate-y-7 {
+  animation: translate-y 7s linear infinite;
+  -webkit-animation: translate-y 7s linear infinite;
+}
+.translate-y-8 {
+  animation: translate-y 8s linear infinite;
+  -webkit-animation: translate-y 8s linear infinite;
+}
+.translate-y-9 {
+  animation: translate-y 9s linear infinite;
+  -webkit-animation: translate-y 9s linear infinite;
+}
+.translate-y-10 {
+  animation: translate-y 10s linear infinite;
+  -webkit-animation: translate-y 10s linear infinite;
+}
+
+@keyframes translate-y {
+  0% {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+  }
+}
+/*  */
