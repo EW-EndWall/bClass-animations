@@ -1,8 +1,8 @@
-/*  * *
-    * *
-    * *
+/*  * * Bclass animations v1.0.0 (--)
+    * * Copyright 2021-2023 The Bclass Authors
+    * * Licensed (--)
+    * * Update (--)
 */
-/* * animations */
 /* * animations close */
 .no-animations * {
   animation: none !important;
@@ -321,7 +321,7 @@
     opacity: 0;
   }
 }
-@keyframes opacitySofAnimation-0-5 {
+@keyframes opacitySoftAnimation-0-5 {
   0% {
     opacity: 0.5;
   }
@@ -622,6 +622,7 @@
   animation: rotate-right 5s linear infinite;
   -webkit-animation: rotate-right 5s linear infinite;
 }
+/* * translate animations */
 @keyframes translate-x {
   0% {
     transform: translateX(100%);
@@ -637,13 +638,6 @@
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
   }
-}
-.translateX-50 {
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }
 .translate-x-1 {
   animation: translate-x 1s linear infinite;
