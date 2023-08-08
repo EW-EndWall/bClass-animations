@@ -1,6 +1,6 @@
-## No animations
+# No animations
 
-# .no-animations
+### example
 
 Pages animations off.
 

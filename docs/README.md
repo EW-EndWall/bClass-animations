@@ -16,7 +16,9 @@
 ## Table Of Contents
 
 - [default](./default.md)
+
 - [animation-delay](./animation-delay.md)
+- [items-animation](./items-animation.md)
 - [no-animations](./no-animations.md)
 - [opacity-animations](./opacity-animations.md)
 - [rotate-animation](./rotate-animation.md)
