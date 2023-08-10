@@ -8,16 +8,16 @@ Animation is hover paused.
 
 ## Slide right animation
 
-- .slide-right-animation
+- .animation-slide-right
 
 ## Slide left animation
 
-- .slide-left-animation
+- .animation-slide-left
 
 ## Slide up animation
 
-- .slide-up-animation-
+- .animation-slide-up
 
 ## Slide down animation
 
-- .slide-down-animation
+- .animation-slide-down
