@@ -2,6 +2,8 @@
 
 ## Model 1
 
+Default 0.5sn.
+
 ### example
 
 ```html

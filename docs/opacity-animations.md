@@ -1,49 +1,47 @@
 # Opasity animations
 
+Default 1sn.
+
 ## Opasity infinite
 
-Time 1 - 5.
+### sharp full
 
-# sharp full
+- .opacity-sharp-animation-full-infinite
+- .opacity-sharp-animation-full-infinite-hover
 
-- .opacity-sharp-animation-full-infinite-1
-- .opacity-sharp-animation-full-infinite-1-hover
+### sharp half
 
-# sharp half
+- .opacity-sharp-animation-half-infinite
+- .opacity-sharp-animation-half-infinite-hover
 
-- .opacity-sharp-animation-half-infinite-1
-- .opacity-sharp-animation-half-infinite-1-hover
+### soft full
 
-# soft full
+- .opacity-soft-animation-full-infinite
+- .opacity-soft-animation-full-infinite-hover
 
-- .opacity-soft-animation-full-infinite-1
-- .opacity-soft-animation-full-infinite-1-hover
+### soft half
 
-# soft half
-
-- .opacity-soft-animation-half-infinite-1
-- .opacity-soft-animation-half-infinite-1-hover
+- .opacity-soft-animation-half-infinite
+- .opacity-soft-animation-half-infinite-hover
 
 ## Opasity single
 
-Time 1 - 5.
+### sharp full
 
-# sharp full
+- .opacity-sharp-animation-full-single
+- .opacity-sharp-animation-full-single-hover
 
-- .opacity-sharp-animation-full-single-1
-- .opacity-sharp-animation-full-single-1-hover
+### sharp half
 
-# sharp half
+- .opacity-sharp-animation-half-single
+- .opacity-sharp-animation-half-single-hover
 
-- .opacity-sharp-animation-half-single-1
-- .opacity-sharp-animation-half-single-1-hover
+### soft full
 
-# soft full
+- .opacity-soft-animation-full-single
+- .opacity-soft-animation-full-single-hover
 
-- .opacity-soft-animation-full-single-1
-- .opacity-soft-animation-full-single-1-hover
+### soft half
 
-# soft half
-
-- .opacity-soft-animation-half-single-1
-- .opacity-soft-animation-half-single-1-hover
+- .opacity-soft-animation-half-single
+- .opacity-soft-animation-half-single-hover
