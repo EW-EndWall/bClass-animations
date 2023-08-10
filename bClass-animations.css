@@ -428,7 +428,7 @@
     -o-transform: rotate(-360deg);
   }
 }
-.rotate-l {
+.animation-rotate-l {
   animation: rotate-left 1s linear infinite;
   -webkit-animation: rotate-left 1s linear infinite;
 }
