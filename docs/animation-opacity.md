@@ -2,6 +2,10 @@
 
 Default 1sn.
 
+### example
+
+[codepen live example](https://codepen.io/Endwall/pen/vYQJrqr)
+
 ## Opasity infinite
 
 ### sharp full

@@ -2,6 +2,10 @@
 
 Default 10sn.
 
+### example
+
+[codepen live example](https://codepen.io/Endwall/pen/vYQJrqr)
+
 ## Slide animations hover
 
 Animation is hover paused.
