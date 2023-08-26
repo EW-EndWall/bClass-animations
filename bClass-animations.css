@@ -214,7 +214,6 @@
   }
 }
 /* * up */
-/* * 0 5 */
 .animation-up-infinite,
 .animation-up-infinite-hover:hover {
   animation: upAnimation 1s linear infinite;
@@ -224,6 +223,36 @@
 .animation-up-single-hover:hover {
   animation: upAnimation 1s linear 1 forwards;
   -webkit-animation: upAnimation 1s linear 1 forwards;
+}
+/*  */
+.animation-up {
+  animation: upAnimation 1s linear infinite;
+  -webkit-animation: upAnimation 1s linear infinite;
+}
+.animation-up:hover {
+  animation: none;
+}
+/*  */
+.animation-up-hover {
+  opacity: 0;
+  transform: translateY(1rem);
+  -webkit-transform: translateY(1rem);
+  -moz-transform: translateY(1rem);
+  -ms-transform: translateY(1rem);
+  -o-transform: translateY(1rem);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.animation-up-hover:hover {
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
 }
 /* * left */
 .animation-left-infinite,
@@ -236,6 +265,36 @@
   animation: leftAnimation 1s linear 1 forwards;
   -webkit-animation: leftAnimation 1s linear 1 forwards;
 }
+/*  */
+.animation-left {
+  animation: leftAnimation 1s linear infinite;
+  -webkit-animation: leftAnimation 1s linear infinite;
+}
+.animation-left:hover {
+  animation: none;
+}
+/*  */
+.animation-left-hover {
+  opacity: 0;
+  transform: translateY(-1rem);
+  -webkit-transform: translateX(-1rem);
+  -moz-transform: translateX(-1rem);
+  -ms-transform: translateX(-1rem);
+  -o-transform: translateX(-1rem);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.animation-left-hover:hover {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
 /* * down */
 .animation-down-infinite,
 .animation-down-infinite-hover:hover {
@@ -247,6 +306,36 @@
   animation: downAnimation 1s linear 1 forwards;
   -webkit-animation: downAnimation 1s linear 1 forwards;
 }
+/*  */
+.animation-down {
+  animation: downAnimation 1s linear infinite;
+  -webkit-animation: downAnimation 1s linear infinite;
+}
+.animation-down:hover {
+  animation: none;
+}
+/*  */
+.animation-down-hover {
+  opacity: 0;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.animation-down-hover:hover {
+  opacity: 1;
+  transform: translateY(1rem);
+  -webkit-transform: translateY(1rem);
+  -moz-transform: translateY(1rem);
+  -ms-transform: translateY(1rem);
+  -o-transform: translateY(1rem);
+}
 /* * right */
 .animation-right-infinite,
 .animation-right-infinite-hover:hover {
@@ -257,6 +346,36 @@
 .animation-right-single-hover:hover {
   animation: rightAnimation 1s linear 1 forwards;
   -webkit-animation: rightAnimation 1s linear 1 forwards;
+}
+/*  */
+.animation-right {
+  animation: rightAnimation 1s linear infinite;
+  -webkit-animation: rightAnimation 1s linear infinite;
+}
+.animation-right:hover {
+  animation: none;
+}
+/*  */
+.animation-right-hover {
+  opacity: 0;
+  transform: translateX(1rem);
+  -webkit-transform: translateX(1rem);
+  -moz-transform: translateX(1rem);
+  -ms-transform: translateX(1rem);
+  -o-transform: translateX(1rem);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.animation-right-hover:hover {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
 }
 /* ! ---------------------------------------------------------------------------------  */
 /* ! ---------------------------------------------------------------------------------  */
