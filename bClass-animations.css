@@ -142,7 +142,7 @@
 /* ! ---------------------------------------------------------------------------------  */
 /* * animation hover */
 @keyframes upAnimation {
-  from {
+  0% {
     opacity: 0;
     transform: translateY(1rem);
     -webkit-transform: translateY(1rem);
@@ -150,7 +150,7 @@
     -ms-transform: translateY(1rem);
     -o-transform: translateY(1rem);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -160,7 +160,7 @@
   }
 }
 @keyframes leftAnimation {
-  from {
+  0% {
     opacity: 0;
     transform: translateX(-1rem);
     -webkit-transform: translateX(-1rem);
@@ -168,7 +168,7 @@
     -ms-transform: translateX(-1rem);
     -o-transform: translateX(-1rem);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -178,7 +178,7 @@
   }
 }
 @keyframes downAnimation {
-  from {
+  0% {
     opacity: 0;
     transform: translateY(-1rem);
     -webkit-transform: translateY(-1rem);
@@ -186,7 +186,7 @@
     -ms-transform: translateY(-1rem);
     -o-transform: translateY(-1rem);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -196,7 +196,7 @@
   }
 }
 @keyframes rightAnimation {
-  from {
+  0% {
     opacity: 0;
     transform: translateX(1rem);
     -webkit-transform: translateX(1rem);
@@ -204,7 +204,7 @@
     -ms-transform: translateX(1rem);
     -o-transform: translateX(1rem);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateX(0);
     -webkit-transform: translateX(0);
