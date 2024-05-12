@@ -1,0 +1,31 @@
+# Animation duration
+
+- .duration-0-1
+- .duration-0-2
+- .duration-0-3
+- .duration-0-4
+- .duration-0-5
+- .duration-0-6
+- .duration-0-7
+- .duration-0-8
+- .duration-0-9
+- .duration-1
+- .duration-2
+- .duration-3
+- .duration-4
+- .duration-5
+- .duration-6
+- .duration-7
+- .duration-8
+- .duration-9
+- .duration-10
+- .duration-15
+- .duration-20
+- .duration-25
+- .duration-30
+- .duration-35
+- .duration-40
+- .duration-45
+- .duration-50
+- .duration-55
+- .duration-60
