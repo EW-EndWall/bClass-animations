@@ -29,9 +29,9 @@ It is designed to be used in bik.run(https://bik.run) services and systems withi
 
 # Usage Rights
 
-# Bik Public License 2.0 | Rights
+## Bik Public License 2.0 | Rights
 
-## According to this license text, the rights of the license holder and users are as follows:
+According to this license text, the rights of the license holder and users are as follows:
 
 ### Licensee's Rights:
 
