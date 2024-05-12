@@ -15,13 +15,15 @@
 - [About](#about)
 - [Documents](#documents)
 - [Usage Rights](#usage-rights)
+  - [Licensees Rights](#licensees-rights)
+  - [Users Rights](#users-rights)
 - [License](#license)
 
 ## About
 
 Animation library ready to use on websites and applications.
 
-It is designed to be used in bik.run(https://bik.run) services and systems within the scope of bClass Animations birlik project(https://project.birlik.run). You are free to use it under the license.
+It is designed to be used in [bik.run](https://bik.run) services and systems within the scope of bClass Animations [birlik project](https://project.birlik.run). You are free to use it under the license.
 
 # Documents
 
@@ -33,7 +35,7 @@ It is designed to be used in bik.run(https://bik.run) services and systems withi
 
 According to this license text, the rights of the license holder and users are as follows:
 
-### Licensee's Rights:
+### Licensees Rights
 
 - The licensee who owns the copyright of the work has the right to protect the work and through this license grants its users the right to use it under certain conditions.
 - Has the right to determine and change the license of the work.
@@ -41,7 +43,7 @@ According to this license text, the rights of the license holder and users are a
 - Has the right to allow the redistribution of the work under certain conditions.
 - In terms of liability, we cannot be held responsible for any damage or loss arising from the use of the work.
 
-### User's Rights:
+### Users Rights
 
 - The user has accepted the license terms and has the right to use the work as long as it complies with these rules.
 - Has the right to change the work as she wishes, but these changes must not violate the license conditions.
