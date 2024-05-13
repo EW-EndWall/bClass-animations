@@ -27,7 +27,8 @@ It is designed to be used in [bik.run](https://bik.run) services and systems wit
 
 # Documents
 
-- [Documents](./versions/latest/docs/README.md)
+> [!TIP]
+> **You can look at the [documentation](./versions/latest/docs/README.md) to learn how to use it.**
 
 # Usage Rights
 
