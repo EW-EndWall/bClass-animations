@@ -60,4 +60,4 @@ According to this license text, the rights of the license holder and users are a
 
 ## License
 
-Distributed under the Bik Public License 2.0 License. See [LICENSE](./LICENSE) for more information.
+> Distributed under the Bik Public License 2.0 License. See [LICENSE](./LICENSE) for more information.
