@@ -6,7 +6,7 @@
   <h3 align="center">
     bClass
     <br/>
-    Animations
+    animations
   </h3>
 </p>
 
@@ -23,8 +23,8 @@
 
 Animation library ready to use on websites and applications.
 
-> [!NOTE]  
-> It is designed to be used in [bik.run](https://bik.run) services and systems within the scope of bClass Animations [birlik project](https://project.birlik.run). You are free to use it under the license.
+> [!NOTE]
+> It is developed to be used in [bik.run](https://bik.run) services and systems within the scope of bClass animations [birlik project](https://project.birlik.run). You are free to use it under the license.
 
 # Documents
 
@@ -39,7 +39,7 @@ According to this license text, the rights of the license holder and users are a
 
 ### Licensees Rights
 
-> [!WARNING]  
+> [!WARNING]
 > - The licensee who owns the copyright of the work has the right to protect the work and through this license grants its users the right to use it under certain conditions.
 > - Has the right to determine and change the license of the work.
 > - Has the right to grant permission for commercial use.
@@ -48,7 +48,7 @@ According to this license text, the rights of the license holder and users are a
 
 ### Users Rights
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > - The user has accepted the license terms and has the right to use the work as long as it complies with these rules.
 > - Has the right to change the work as she wishes, but these changes must not violate the license conditions.
 > - Has the right to use it for commercial purposes.
