@@ -5,14 +5,16 @@
  * * License Update ("03/28/2024")
  */
 document.addEventListener("DOMContentLoaded", () => {
-  $(".animation-items-m-1 >").hover(
-    (index, element) => {
-      $(element).addClass("animation-items-hovered-m-1");
-      $(".item").not(element).addClass("animation-items-not-hovered-m-1");
+  $(".animate-items-m-1 >").hover(
+    (event) => {
+      $(event.currentTarget).addClass("animate-items-hovered-m-1");
+      $(".item")
+        .not(event.currentTarget)
+        .addClass("animate-items-not-hovered-m-1");
     },
-    (index, element) => {
-      $(element).removeClass("animation-items-hovered-m-1");
-      $(".item").removeClass("animation-items-not-hovered-m-1");
+    (event) => {
+      $(event.currentTarget).removeClass("animate-items-hovered-m-1");
+      $(".item").removeClass("animate-items-not-hovered-m-1");
     }
   );
 });
