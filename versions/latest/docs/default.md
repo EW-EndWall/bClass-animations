@@ -30,18 +30,5 @@ Pages animations off.
 <div class="animations-paused">content</div>
 ```
 
-## animation iteration count
 
-- .infinite
 
-## animation fill mode
-
-- .forwards
-
-## transition timing function
-
-- .inear
-- .ease
-- .ease-in
-- .ease-out
-- .ease-in-out
