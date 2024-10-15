@@ -6,8 +6,8 @@
 
 Pages animations off or element.
 
-- .hover:animate-none
 - .animate-none
+- .hover:animate-none
 
 ```html
 <body class="animate-none">

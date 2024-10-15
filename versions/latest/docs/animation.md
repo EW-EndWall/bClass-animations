@@ -1,6 +1,6 @@
 # Animation delay
 
-delay-{time} time is 1-5
+animate-delay-{time} time is 1-5
 
 - .animate-delay-1
 - .animate-delay-2
@@ -10,15 +10,15 @@ delay-{time} time is 1-5
 
 # Animation duration
 
-- .animate-duration-0-1
-- .animate-duration-0-2
-- .animate-duration-0-3
-- .animate-duration-0-4
-- .animate-duration-0-5
-- .animate-duration-0-6
-- .animate-duration-0-7
-- .animate-duration-0-8
-- .animate-duration-0-9
+- .animate-duration-0.1
+- .animate-duration-0.2
+- .animate-duration-0.3
+- .animate-duration-0.4
+- .animate-duration-0.5
+- .animate-duration-0.6
+- .animate-duration-0.7
+- .animate-duration-0.8
+- .animate-duration-0.9
 - .animate-duration-1
 - .animate-duration-2
 - .animate-duration-3
@@ -42,7 +42,7 @@ delay-{time} time is 1-5
 
 ## Animation timing function
 
-- .inear
+- .linear
 - .ease
 - .ease-in
 - .ease-out
