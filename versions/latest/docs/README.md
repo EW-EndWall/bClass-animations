@@ -1,27 +1,13 @@
-<p align="center">
-  
-  <h1 align="center">
-    bClass animations
-    <br/>
-    <br/>
-  </h3>
-    
-  <h2 align="center">
-    Documents
-    <br/>
-    <br/>
-  </h2>
-</p>
+## Available Documentation Languages
 
-## Table Of Contents
+| Language   | File                                       |
+| ---------- | ------------------------------------------ |
+| 🇹🇷 Turkish | [documentation-tr.md](documentation-tr.md) |
+| 🇬🇧 English | [documentation-en.md](documentation-en.md) |
+| 🇩🇪 German  | [documentation-de.md](documentation-de.md) |
+| 🇷🇺 Russian | [documentation-ru.md](documentation-ru.md) |
+| 🇦🇪 Arabic  | [documentation-ar.md](documentation-ar.md) |
 
-- [default](./default.md)
+## Usage
 
-- [delay](./delay.md)
-- [duration](./duration.md)
-- [animate-items](./animate-items.md)
-- [animate-opacity-translate](./animate-opacity-translate.md)
-- [animate-opacity](./animate-opacity.md)
-- [animate-rotate](./animate-rotate.md)
-- [animate-slide](./animate-slide.md)
-- [transition](./transition.md)
+For detailed implementation instructions, please refer to the documentation in your preferred language.
