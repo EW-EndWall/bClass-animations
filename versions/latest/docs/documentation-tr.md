@@ -1,6 +1,6 @@
 # bClass Animations
 
-bClass animasyonları, web projeleri için hazır kullanılabilir animasyonlar sağlayan bir CSS ve JavaScript kütüphanesidir. Kullanıcı deneyimini geliştirmek için pürüzsüz geçişler, hover efektleri ve çeşitli animasyon türleri sunar.
+`bClass animations`, web projeleri için hazır kullanılabilir animasyonlar sağlayan bir CSS ve JavaScript kütüphanesidir. Kullanıcı deneyimini geliştirmek için pürüzsüz geçişler, hover efektleri ve çeşitli animasyon türleri sunar.
 
 ## Özellikler
 
@@ -135,4 +135,4 @@ CSS ve JavaScript dosyalarını projenize ekleyin:
 
 ## Lisans
 
-Bu proje Bik Public License 2.0 altında lisanslanmıştır.
+> Bik Public License 2.0 Lisansı kapsamında dağıtılmaktadır. Daha fazla bilgi için [LICENSE](./../../../LICENSE) dosyasına göz atın.

@@ -1,6 +1,6 @@
 # bClass Animations
 
-bClass Animations is a CSS and JavaScript library that provides ready-to-use animations for web projects. It offers smooth transitions, hover effects, and various animation types to enhance user experience.
+`bClass animations` is a CSS and JavaScript library that provides ready-to-use animations for web projects. It offers smooth transitions, hover effects, and various animation types to enhance user experience.
 
 ## Features
 
@@ -135,4 +135,4 @@ Add the CSS and JavaScript files to your project:
 
 ## License
 
-This project is licensed under the Bik Public License 2.0.
+> Distributed under the Bik Public License 2.0 License. See [LICENSE](./../../../LICENSE) for more information.
