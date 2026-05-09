@@ -38,7 +38,6 @@
 - `.animate-hover-right` – Animation, die Elemente beim Hovern nach rechts bewegt
 - `.animate-items-m-1`, `.animate-items-hovered-m-1` – Stil für Elemente mit Hover-Effekt
 - `.animate-items-m-1`, `.animate-items-not-hovered-m-1` – Stil für Elemente ohne Hover-Effekt
-- `.animate-down-hover` – Animation, die Elemente beim Hovern nach unten bewegt
 - `.animate-right infinite hover:animate-none` – Animation, die Elemente nach rechts bewegt, unendlich läuft und beim Darüberfahren gestoppt wird
 
 #### Übergangseffekte

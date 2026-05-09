@@ -38,7 +38,6 @@
 - `.animate-hover-right` - Animation that moves elements to the right on hover
 - `.animate-items-m-1`, `.animate-items-hovered-m-1` - Style for hovered items
 - `.animate-items-m-1`, `.animate-items-not-hovered-m-1` - Style for non-hovered items
-- `.animate-down-hover` - Animation that moves elements downward on hover
 - `.animate-right infinite hover:animate-none` - Moves elements to the right in an infinite loop and stops the animation upon hovering
 
 #### Transition Effects

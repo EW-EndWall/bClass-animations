@@ -38,7 +38,6 @@
 - `.animate-hover-right` - Fare üzerine geldiğinde elemanları sağa hareket ettiren animasyon
 - `.animate-items-m-1`, `.animate-items-hovered-m-1` - Hover efekti uygulanmış öğeler için stil
 - `.animate-items-m-1`, `.animate-items-not-hovered-m-1` - Hover efekti uygulanmamış öğeler için stil
-- `.animate-down-hover` - Fare üzerine geldiğinde elemanları aşağı hareket ettiren animasyon
 - `.animate-right infinite hover:animate-none` - Elemanları sağa hareket ettiren, sonsuz döngüye alınan ve üzerine gelindiğinde etkinliği kaldırılan animasyon
 
 #### Geçiş Efektleri

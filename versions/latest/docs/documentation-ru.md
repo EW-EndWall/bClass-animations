@@ -38,7 +38,6 @@
 - `.animate-hover-right` — анимация перемещения вправо при наведении курсора
 - `.animate-items-m-1`, `.animate-items-hovered-m-1` — стили для элементов с эффектом наведения
 - `.animate-items-m-1`, `.animate-items-not-hovered-m-1` — стили для элементов без эффекта наведения
-- `.animate-down-hover` — анимация перемещения вниз при наведении курсора
 - `.append `.animate-right infinite hover:animate-none` — анимация перемещения вправо, зацикленная бесконечно и прекращающаяся при наведении
 
 #### Эффекты переходов (Transitions)

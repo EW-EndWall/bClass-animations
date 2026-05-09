@@ -38,7 +38,6 @@
 - `.animate-hover-right` - تحريك العناصر لليمين عند تمرير الماوس فوقها
 - `.animate-items-m-1`, `.animate-items-hovered-m-1` - نمط للعناصر التي يتم تفعيل تأثير الـ hover عليها
 - `.animate-items-m-1`, `.animate-items-not-hovered-m-1` - نمط للعناصر التي لا يتم تفعيل تأثير الـ hover عليها
-- `.animate-down-hover` - تحريك العناصر للأسفل عند تمرير الماوس فوقها
 - `.animate-right infinite hover:animate-none` - تحريك العناصر لليمين في حلقة لا نهائية، ويتوقف التحريك عند تمرير الماوس فوقها
 
 #### تأثيرات الانتقال

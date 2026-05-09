@@ -174,7 +174,12 @@
 }
 .transition-color,
 .hover\:transition-color {
-  transition: color, background-color, border-color, text-decoration-color, fill,
+  transition:
+    color,
+    background-color,
+    border-color,
+    text-decoration-color,
+    fill,
     stroke 1s ease;
 }
 .transition-opacity,
@@ -316,12 +321,12 @@
   animation: downAnimate 1s linear;
 }
 /*  */
-.animate-down-hover {
+.animate-hover-down {
   opacity: 0;
   transform: translateY(0);
   transition: all 1s ease;
 }
-.animate-down-hover:hover {
+.animate-hover-down:hover {
   opacity: 1;
   transform: translateY(1rem);
 }
